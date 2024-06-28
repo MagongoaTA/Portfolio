@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thlologelo's Portfolio</title>
+    <!-- Font Awesome 5 CSS (Free version) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            position: relative; /* To position the nav within the body */
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav ol {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        nav li a:hover {
+            color: #007bff; /* Blue color on hover */
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            background-color: black;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            line-height: 1.6;
+        }
+
+        .im {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-icons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ol>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            
+        </ol>
+    </nav>
+    <div class="content">
+        <p>
+            <b>Hello, I'm Thlologelo Magongoa</b><br>
+             <b>from South Africa, a software and web developer</b><br>
+           
+            coding my way to the future as an aspiring developer.
+        </p>
+        <img src="pic.jpg" alt="Thlologelo's Picture" class="im">
+        <div class="social-icons">
+            <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/tlhologelo.magongoa.1?mibextid=LQQJ4d" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/tlholo_oratile?igsh=MTh4eGZrOXY4dHV2dg%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="http://linkedin.com/in/thlologelo-magongoa-0b0359245" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+       
+    </div>
+</body>
+</html>
